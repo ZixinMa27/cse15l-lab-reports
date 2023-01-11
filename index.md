@@ -1,7 +1,37 @@
 # Zixin lab reports
 ## Introduction
-My name is Zixin Ma, a fourth year student majoring in **Data Science**. In Winter 2023 quarter, I am taking *CSE15L*, *DSC180B*, *DSC140A*, and *MATH157*.
+Horizontal rule: 
+---
+My name is Zixin Ma, a fourth year student majoring in **Data Science**. In Winter 2023 quarter, I am taking
+* *CSE15L*, 
+* *DSC180B*, 
+* *DSC140A*, 
+* *MATH157*.
 
 In my spare times, I like to:
-> Dancing (k-pop, Hiphop)
+> Dancing (k-pop, Hiphop),
 > Playing Badminton
+
+I traveled to many countries:
+1. Japan
+2. South Korea
+3. Thailand
+4. England
+5. Australia
+
+My Linkedin page is:
+[1]: https://www.linkedin.com/in/zixin-ma/
+
+Here is my picture of my cat:
+[2]: https://github.com/ZixinMa27/cse15l-lab-reports/blob/main/cat.jpg
+
+## Code
+what will print out if I write `print('My name is Zixin') `?
+```
+# write hello world in python
+print ("Hello World!")
+```
+
+
+
+
