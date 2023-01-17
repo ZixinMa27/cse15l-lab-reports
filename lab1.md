@@ -2,7 +2,7 @@
 
 ## Part 1: Installing VScode
 1. Download the vscode from [(https://code.visualstudio.com/)](https://code.visualstudio.com/)
-2. Take the screenshot after opening VScode, it should look like below: \
+2. Take the screenshot after opening VScode, it should look like below: 
 ![Image](vscode.jpg)
 
 ## Part 2: Remotely Connecting
@@ -10,7 +10,8 @@
 ```
 ⤇ ssh cs15lwi23zz@ieng6.ucsd.edu 
 ```  
-**Remember to replace "zz" by your letters.** \
+**Remember to replace "zz" by your letters.** 
+
 2. Then enter the password, and take a screenshot after you successfully connect to the remote server, it should look like below: \
 ![Image](remote_server.jpg)
 
