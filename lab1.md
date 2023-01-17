@@ -20,11 +20,12 @@
 
 *  `cd ~`
 *  `cd`
-*  `ls - lat`
-*  `ls - a`
-*  `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
-*  `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
+*  `ls`
+*  `pwd`
+*  `cat <directory>`
+*  `exit`
 
+Hint: cheatsheet for Linux commands. [https://www.guru99.com/linux-commands-cheat-sheet.html](https://www.guru99.com/linux-commands-cheat-sheet.html) \ 
 2. After running some commands, you can choose one example, take a screenshot and give a short explaination. 
 
 > Here is an example: \
