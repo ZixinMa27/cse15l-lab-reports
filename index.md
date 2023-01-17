@@ -20,10 +20,10 @@ I traveled to many countries:
 5. Australia
 
 My Linkedin page is:
-[1](https://www.linkedin.com/in/zixin-ma/)
+[https://www.linkedin.com/in/zixin-ma/](https://www.linkedin.com/in/zixin-ma/)
 
 Here is my picture of my cat:
-[2](cat.jpg)
+![Image](cat.jpg)
 
 ## Code
 ---
