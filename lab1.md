@@ -2,7 +2,7 @@
 
 ## Part 1: Installing VScode
 1. Download the vscode from [Link](https://code.visualstudio.com/)
-2. Take the screenshot after opening VScode, it should look like below:
+2. Take the screenshot after opening VScode, it should look like below: \
 ![Image](vscode.jpg)
 
 ## Part 2: Remotely Connecting
@@ -11,7 +11,7 @@
 ⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
 ``` 
 It should look like this. Remember to replace "zz" by your letters.
-2. Then enter the password, and take a screenshot after you successfully connect to the remote server, it should look like below:
+2. Then enter the password, and take a screenshot after you successfully connect to the remote server, it should look like below: \
 ![Image](remote_server.jpg)
 
 
@@ -28,6 +28,6 @@ It should look like this. Remember to replace "zz" by your letters.
 2. After running some commands, you can choose one example, take a screenshot and give a short explaination. 
 
 > Here is an example: \
-> ![Image](command_example.jpg)
+> ![Image](command_example.jpg) \
 > Explanation: First, Ran `ls` shows the files and folders in the current directory, in this case, perl5 a folder in this directory. Then ran `cd <path>` onto one of the folders, then ran `cd ~` to return the start of the path.  
 
