@@ -1,7 +1,7 @@
 # Lab 1 Report
----
+
 Tutorial for lab 1
----
+
 
 ## Part 1: Installing VScode
 1. Download the vscode from [(https://code.visualstudio.com/)](https://code.visualstudio.com/)
