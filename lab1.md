@@ -1,6 +1,6 @@
 # Lab 1 Report
 
-Tutorial for lab 1
+Tutorial for lab 1, created by Zixin Ma
 
 
 ## Part 1: Installing VScode
