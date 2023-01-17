@@ -16,7 +16,7 @@ It should look like this. Remember to replace "zz" by your letters.
 
 
 ## part 3: Trying Some Commands
-1. Try some commands and explain what happen. Here are some useful commands to try: 
+1. Try some commands. Here are some useful commands to try: 
 
 *  `cd ~`
 *  `cd`
@@ -25,4 +25,6 @@ It should look like this. Remember to replace "zz" by your letters.
 *  `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
 *  `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
 
+2. After running some commands, you can choose one example, take a screenshot and give a short explaination. It should look like below:
+![Image](command_example.jpg)
 
