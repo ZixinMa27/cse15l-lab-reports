@@ -7,11 +7,10 @@
 
 ## Part 2: Remotely Connecting
 1. Open a terminal in VScode. In the terminal, enter your course-specific account. \
-\ It should look like this. Remember to replace "zz" by your letters. \
+It should look like this. Remember to replace "zz" by your letters. \
 ```
 ⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
-``` 
-\
+```  
 2. Then enter the password, and take a screenshot after you successfully connect to the remote server, it should look like below: \
 ![Image](remote_server.jpg)
 
