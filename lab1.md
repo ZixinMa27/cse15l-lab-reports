@@ -1,4 +1,6 @@
-# Lab 1 tutorial 
+# Lab 1 Report
+---
+Tutorial for lab 1
 
 ## Part 1: Installing VScode
 1. Download the vscode from [(https://code.visualstudio.com/)](https://code.visualstudio.com/)
@@ -6,11 +8,11 @@
 ![Image](vscode.jpg)
 
 ## Part 2: Remotely Connecting
-1. Open a terminal in VScode. In the terminal, enter your `ssh` + your course-specific account. 
+1. Open a terminal in VScode. In the terminal, enter your `ssh` + your course-specific account. (**Remember to replace "zz" by your letters.** )
 ```
 ⤇ ssh cs15lwi23zz@ieng6.ucsd.edu 
 ```  
-**Remember to replace "zz" by your letters.** 
+
 
 2. Then enter the password, and take a screenshot after you successfully connect to the remote server, it should look like below: \
 ![Image](remote_server.jpg)
