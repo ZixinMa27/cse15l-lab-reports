@@ -1,7 +1,7 @@
 # Lab 1 tutorial 
 
 ## Part 1: Installing VScode
-1. Download the vscode from [1]: https://code.visualstudio.com/
+1. Download the vscode from [Link]: https://code.visualstudio.com/
 2. Take the screenshot after opening VScode, it should look like below:
 ![Image](vscode.jpg)
 
