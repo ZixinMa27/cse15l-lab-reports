@@ -1,7 +1,7 @@
 # Lab 1 tutorial 
 
 ## Part 1: Installing VScode
-1. Download the vscode from [Link](https://code.visualstudio.com/)
+1. Download the vscode from [[Link](https://code.visualstudio.com/)](https://code.visualstudio.com/)
 2. Take the screenshot after opening VScode, it should look like below: \
 ![Image](vscode.jpg)
 
@@ -15,7 +15,7 @@ It should look like this. Remember to replace "zz" by your letters.
 ![Image](remote_server.jpg)
 
 
-## part 3: Trying Some Commands
+## Part 3: Trying Some Commands
 1. Try some commands. Here are some useful commands to try: 
 
 *  `cd ~`
