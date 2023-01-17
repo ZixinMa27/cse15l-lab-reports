@@ -28,7 +28,6 @@ It should look like this. Remember to replace "zz" by your letters.
 2. After running some commands, you can choose one example, take a screenshot and give a short explaination. 
 
 > Here is an example: 
-![Image](command_example.jpg)
-
-Explanation: First, Ran `ls` shows the files and folders in the current directory, in this case, perl5 a folder in this directory. Then ran `cd <path>` onto one of the folders, then ran `cd ~` to return the start of the path.  
+> ![Image](command_example.jpg)
+> Explanation: First, Ran `ls` shows the files and folders in the current directory, in this case, perl5 a folder in this directory. Then ran `cd <path>` onto one of the folders, then ran `cd ~` to return the start of the path.  
 
