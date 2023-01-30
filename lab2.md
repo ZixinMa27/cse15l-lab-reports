@@ -47,6 +47,7 @@ public class StringServer {
 ```
 
 2. Two screenshot and description.
+
 * Screenshot 1:
 
 ![Image](lab2-message1.jpg)
