@@ -1,6 +1,7 @@
 # Lab Report 2 - Servers and Bugs
 
-## Part 1
+## Part 1 
+### StringServer
 ```
 import java.io.IOException;
 import java.net.URI;
