@@ -220,5 +220,5 @@ static double averageWithoutLowest(double[] arr) {
 }
 ```
 
-## Part 3
+## Part 3 Lab Lessons
 From lab in week 2, I learned how to construct a basic server and operate it on my personal computer. This will aid me in constructing future websites. From lab in week 3, I gained knowledge on debugging by writing JUnit tests, which will be useful in verifying the functionality of my code in all scenarios.
