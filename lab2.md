@@ -52,19 +52,31 @@ public class StringServer {
 ![Image](lab2-message1.jpg)
 
 * Which methods in your code are called?
-What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-* The string is added to arraylist named messages.
- if (url.getPath().contains("/add-message")) {
-                String[] parameters = url.getQuery().split("=");
-                if (parameters[0].equals("s")) {
-                    terms.add(parameters[1]);
-                    return listStr(terms);
-                }
-            }
-            
+
+    The handleRequest method are called.
+
+* What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+
+    The relevent arguments in the terminal were `javac Server.java StringServer.java`, which compiled the java files, and `java StringServer 2023`, which indicated to start server with a port number 2023. The relevent arguments to call handlesRequest method were `http://localhost:2023/add-message?s=<strings>`, the `add-message?s=` and `<strings>` entered were the values of relevant fields of URLHandler, in the case the string entered were `hello`.
+
+* How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
+    When first called `http://localhost:2023/`, the handleRequest method were called, it will return all the string message in the arraylist that I created to store values, and it was nothing shown for first time open. Then I added the requests `/add-message?s=Hello`, the handleRequest method were called, and message string `Hello` were added to arraylist and return the all values inside the arraylist, which were `Hello`. 
+
 * Screenshot 2:
 ![Image](lab2-message2.jpg)
+
+* Which methods in your code are called?
+
+    The handleRequest method are called.
+
+* What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+
+    The relevent arguments to call handlesRequest method were `http://localhost:2023/add-message?s=<strings>`, the `add-message?s=` and `<strings>` entered were the values of relevant fields of URLHandler, in the case the string entered were `How are you`.
+
+* How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
+    After the requests `/add-message?s=Hello`, I added the requests `/add-message?s=How are you`, the handleRequest method were called again, and message string `How are you` were added to arraylist and return the all values inside the arraylist, which were `Hello`, `How are you`.
 
 
 ## Part 2  Bugs from `ArrayExample.java`
