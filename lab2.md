@@ -47,7 +47,7 @@ public class StringServer {
 }
 ```
 
-2. Two screenshot and description.
+2. Two screenshots and description.
 
 * Screenshot 1:
 
