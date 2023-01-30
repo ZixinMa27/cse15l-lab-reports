@@ -1,7 +1,7 @@
 # Lab Report 2 - Servers and Bugs
 
-## Part 1 
-### StringServer
+## Part 1 Web Server
+### StringServer.java
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -44,3 +44,4 @@ public class StringServer {
     }
 }
 ```
+![Image](command_example.jpg)
