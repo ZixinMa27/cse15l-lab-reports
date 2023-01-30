@@ -22,12 +22,12 @@ Tutorial for lab 1, created by Zixin Ma
 ## Part 3: Trying Some Commands
 1. Try some commands. Here are some useful commands to try: 
 
-*  `cd ~`
-*  `cd`
-*  `ls`
-*  `pwd`
-*  `cat <directory>`
-*  `exit`
+*  `cd ~` go to home directory 
+*  `cd` change to a particular directory
+*  `ls` list all the files and dirctories in the current working directory
+*  `pwd` print working directory, get where you are now at
+*  `cat <filename>` show the content of the file
+*  `exit` exit the shell
 
 Hint: cheatsheet for Linux commands. [https://www.guru99.com/linux-commands-cheat-sheet.html](https://www.guru99.com/linux-commands-cheat-sheet.html)
 
