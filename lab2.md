@@ -1,4 +1,5 @@
 # Lab Report 2 - Servers and Bugs
+Name: Zixin Ma
 
 ## Part 1 Web Server
 1. Show code for `StringServer.java`
