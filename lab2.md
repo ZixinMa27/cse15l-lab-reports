@@ -65,7 +65,7 @@ How do the values of any relevant fields of the class change from this specific 
 ![Image](lab2-message2.jpg)
 
 
-## Part 2 bugs from `ArrayExample.java`
+## Part 2  Bugs from `ArrayExample.java`
 
 1. A failure-inducing input for the buggy program, as a JUnit test and any associated code.
 ```
@@ -93,6 +93,7 @@ public void testAverageWithoutLowest1(){
     assertEquals(2.5, ArrayExamples.averageWithoutLowest(input1), 0);
 }
 ```
+
 2. An input that doesn’t induce a failure, as a JUnit test and any associated code.
 ```
 # JUnit test for reverseInPlace Method, not trigger failure
@@ -164,9 +165,9 @@ static int[] reversed(int[] arr) {
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
-        newArray[i] = arr[arr.length - i - 1];
+        newArray[i] = arr[arr.length - i - 1]; // assign original array to new array
     }
-    return newArray;
+    return newArray; // return the new array
 }
 ```
 * Bug code for `averageWithoutLowest` method. The problem was that the code will not work if there is two or more lowest number that are equal to each other. `if(num != lowest) { sum += num; }` code here means whenever the number is equal to lowest value, it will not be calculate. 
@@ -199,12 +200,11 @@ static double averageWithoutLowest(double[] arr) {
     for(double num: arr) {
         sum += num; 
     }
-    sum =  sum - lowest;
+    sum =  sum - lowest; // drop the lowest
     return sum / (arr.length - 1);
 }
 ```
 
 
 ## Part 3
-From lab in week 2, I learnt how to build a simple server and run the server on my local computer. 
-
+From lab in week 2, I learned how to construct a basic server and operate it on my personal computer. This will aid me in constructing future websites. From lab in week 3, I gained knowledge on debugging by writing JUnit tests, which will be useful in verifying the functionality of my code in all scenarios.
