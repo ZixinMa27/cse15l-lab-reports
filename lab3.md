@@ -3,7 +3,7 @@
 #### Feb 13, 2023
 
 ## Researching Command - `grep`
-Source: https://www.golinuxcloud.com/grep-command-in-linux/. Specifically, `-i` from 3. Perform case sensitive search using grep command; `-n` from 7. grep command to print line number; `-r` from 10. grep command to search in directories and sub-directories; `-l` from 11. grep command to print list of matching files only.
+Source: [https://www.golinuxcloud.com/grep-command-in-linux/](https://www.golinuxcloud.com/grep-command-in-linux/). Specifically, `-i` from 3. Perform case sensitive search using grep command; `-n` from 7. grep command to print line number; `-r` from 10. grep command to search in directories and sub-directories; `-l` from 11. grep command to print list of matching files only.
 
 1. `$ grep -i pattern file_name`. Search for strings pattern case insensitively. 
 
