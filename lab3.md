@@ -3,11 +3,11 @@
 #### Feb 13, 2023
 
 ## Researching Command - `grep`
-Source: https://www.golinuxcloud.com/grep-command-in-linux/
+Source: https://www.golinuxcloud.com/grep-command-in-linux/. Specifically, `-i` from 3. Perform case sensitive search using grep command; `-n` from 7. grep command to print line number; `-r` from 10. grep command to search in directories and sub-directories; `-l` from 11. grep command to print list of matching files only.
 
 1. `$ grep -i pattern file_name`. Search for strings pattern case insensitively. 
 
-Input on files and its output:  
+- Input on files and its output:  
 ```
 zixin@ZixindeMBP docsearch % grep -i "hong kong" ./written_2/travel_guides/berlitz1/*.txt
 ./written_2/travel_guides/berlitz1/HandRHongKong.txt:        Hong Kong has some of the most luxurious hotels in the
@@ -210,13 +210,14 @@ zixin@ZixindeMBP docsearch % grep -i "hong kong" ./written_2/travel_guides/berli
 ./written_2/travel_guides/berlitz1/WhereToIndia.txt:        Singapore, the Peninsula inHong Kong, and the Imperial in Tokyo. You
 ./written_2/travel_guides/berlitz1/WhereToMalaysia.txt:        Majestic Station Hotel. The High Court and Hong Kong and Shanghai Bank
 ```
+- Explanation: We search for pattern "hong kong" or "HONG KONG" case insensitively within ./written_2/travel_guides/berlitz1/ directory files. This is useful because we may sometimes forget ignore the importance of case, whether it is uppercase or lowercase letter. Using `-l`, we do not need to worry about the letter case.
 
-Input on directory and its output:
+- Input on directory and its output:
 ```
 zixin@ZixindeMBP docsearch % grep -i "hong kong" ./written_2 
 grep: ./written_2: Is a directory
 ```
-
+- Explanation: We search for pattern "hong kong" or "HONG KONG" case insensitively within `./written_2` directory. But it is a dirctory, and contains no files, so we will not able to find any matches.
 
 2. `$ grep -n pattern file_name` Search the line number of the pattern that is matched.
 
@@ -423,6 +424,7 @@ zixin@ZixindeMBP docsearch % grep --color -n "Hong Kong" ./written_2/travel_guid
 ./written_2/travel_guides/berlitz1/WhereToIndia.txt:1228:        Singapore, the Peninsula in Hong Kong, and the Imperial in Tokyo. You
 ./written_2/travel_guides/berlitz1/WhereToMalaysia.txt:531:        Majestic Station Hotel. The High Court and Hong Kong and Shanghai Bank
 ```
+- Explanation: We search for pattern "Hong Kong" case sensitively within ./written_2/travel_guides/berlitz1/ directory files and display its line appear within the file. This is useful because we can easily locate the character, especially more convenient when searching large files.
 
 Input on directory and its output:
 ```
@@ -430,7 +432,33 @@ zixin@ZixindeMBP docsearch % grep -n "Hong Kong" ./written_2
 grep: ./written_2: Is a directory
 ```
 
-3. `$ grep -r pattern path`. Searches the matches in all files in the directory passed in and including its sub-directories
+- Explanation: We search for pattern "Hong Kong" case sensitively within `./written_2` directory. But it is a dirctory, and contains no files, so we will not able to find any matches.
+
+
+3. `$ grep -l pattern path` Search file names only that contain the matching patterns.
+Input on files and its output:
+```
+zixin@ZixindeMBP docsearch % grep -l "Hong Kong" ./written_2/travel_guides/berlitz1/*.txt
+./written_2/travel_guides/berlitz1/HandRHongKong.txt
+./written_2/travel_guides/berlitz1/HandRJamaica.txt
+./written_2/travel_guides/berlitz1/HistoryHongKong.txt
+./written_2/travel_guides/berlitz1/IntroHongKong.txt
+./written_2/travel_guides/berlitz1/WhatToHongKong.txt
+./written_2/travel_guides/berlitz1/WhatToMalaysia.txt
+./written_2/travel_guides/berlitz1/WhereToHongKong.txt
+./written_2/travel_guides/berlitz1/WhereToIndia.txt
+./written_2/travel_guides/berlitz1/WhereToMalaysia.txt
+```
+- Explanation: We search for filenames that contain pattern "Hong Kong" case sensitively within `./written_2` directory. But it is a dirctory, and contains no files, so we will not able to find any matches.
+
+Input on directory and its output:
+```
+docsearch % grep -l "Hong Kong" ./written_2
+grep: ./written_2: Is a directory
+```
+- Explanation: We search for filename that contain pattern "Hong Kong" case sensitively within ./written_2/travel_guides/berlitz1/ directory files. This is useful when I only want to find the filename instead of the content of the file.
+
+4. `$ grep -r pattern path`. Searches the matches in all files in the directory passed in and including its sub-directories
 
 Input on file and its output:
 ```
@@ -635,6 +663,9 @@ zixin@ZixindeMBP docsearch % grep -r "Hong Kong" ./written_2/travel_guides/berli
 ./written_2/travel_guides/berlitz1/WhereToIndia.txt:        Singapore, the Peninsula in Hong Kong, and the Imperial in Tokyo. You
 ./written_2/travel_guides/berlitz1/WhereToMalaysia.txt:        Majestic Station Hotel. The High Court and Hong Kong and Shanghai Bank
 ```
+- Explanation:
+We search for pattern "Hong kong" case sensitively within ./written_2/travel_guides/berlitz1/ directory files and including its sub-directories. Since there is no more subdirectories, in this case, it is same as `grep "Hong Kong" ./written_2/travel_guides/berlitz1/*.txt`
+
 
 Input on dirctory and its output:
 ```
@@ -849,23 +880,5 @@ zixin@ZixindeMBP docsearch % grep -r "Hong Kong" ./written_2
 ./written_2/travel_guides/berlitz2/China-History.txt:In 1992 “Supreme Leader” Deng Xiaoping set into motion a rapid Westernization of China’s economy. Deng’s death and Hong Kong’s return to Chinese sovereignty in 1997 together marked another new era in the creation of a New China, this time as an economic superpower designed to rival the US and Europe in the 21st century. 
 ./written_2/travel_guides/berlitz2/Beijing-WhatToDo.txt:Carpets. Chinese carpets of silk or wool should be inspected carefully. The colors should not be fading and the threads should be fine and tightly woven. Handmade carpets from the far western provinces and from Tibet are popular in Beijing. Begin shopping at the Friendship Store or the Beijing Carpet Import and Export Corporation on the first floor of the Hong Kong Macao Center (Third Ring Road East).
 ```
-
-4. `$ grep -l pattern path` Search file names only that contain the matching patterns.
-Input on files and its output:
-```
-zixin@ZixindeMBP docsearch % grep -l "Hong Kong" ./written_2/travel_guides/berlitz1/*.txt
-./written_2/travel_guides/berlitz1/HandRHongKong.txt
-./written_2/travel_guides/berlitz1/HandRJamaica.txt
-./written_2/travel_guides/berlitz1/HistoryHongKong.txt
-./written_2/travel_guides/berlitz1/IntroHongKong.txt
-./written_2/travel_guides/berlitz1/WhatToHongKong.txt
-./written_2/travel_guides/berlitz1/WhatToMalaysia.txt
-./written_2/travel_guides/berlitz1/WhereToHongKong.txt
-./written_2/travel_guides/berlitz1/WhereToIndia.txt
-./written_2/travel_guides/berlitz1/WhereToMalaysia.txt
-```
-Input on directory and its output:
-```
-docsearch % grep -l "Hong Kong" ./written_2
-grep: ./written_2: Is a directory
-```
+- Explanation:
+We search for pattern "Hong kong" case sensitively within ./written_2 directory files and including its sub-directories. This is useful when you do not know what the files is located at which directory, using `-r` will help you find all. This will fix the problem that occured using `-i`, `-l`, `n` on directories.  
