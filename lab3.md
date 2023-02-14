@@ -426,7 +426,8 @@ zixin@ZixindeMBP docsearch % grep --color -n "Hong Kong" ./written_2/travel_guid
 ```
 - Explanation: We search for pattern "Hong Kong" case sensitively within ./written_2/travel_guides/berlitz1/ directory files and display its line appear within the file. This is useful because we can easily locate the character, especially more convenient when searching large files.
 
-Input on directory and its output:
+- Input on directory and its output:
+
 ```
 zixin@ZixindeMBP docsearch % grep -n "Hong Kong" ./written_2            
 grep: ./written_2: Is a directory
@@ -436,7 +437,7 @@ grep: ./written_2: Is a directory
 
 
 3. `$ grep -l pattern path` Search file names only that contain the matching patterns.
-Input on files and its output:
+- Input on files and its output:
 ```
 zixin@ZixindeMBP docsearch % grep -l "Hong Kong" ./written_2/travel_guides/berlitz1/*.txt
 ./written_2/travel_guides/berlitz1/HandRHongKong.txt
@@ -451,7 +452,7 @@ zixin@ZixindeMBP docsearch % grep -l "Hong Kong" ./written_2/travel_guides/berli
 ```
 - Explanation: We search for filenames that contain pattern "Hong Kong" case sensitively within `./written_2` directory. But it is a dirctory, and contains no files, so we will not able to find any matches.
 
-Input on directory and its output:
+- Input on directory and its output:
 ```
 docsearch % grep -l "Hong Kong" ./written_2
 grep: ./written_2: Is a directory
@@ -460,7 +461,7 @@ grep: ./written_2: Is a directory
 
 4. `$ grep -r pattern path`. Searches the matches in all files in the directory passed in and including its sub-directories
 
-Input on file and its output:
+- Input on file and its output:
 ```
 zixin@ZixindeMBP docsearch % grep -r "Hong Kong" ./written_2/travel_guides/berlitz1/*.txt   
 ./written_2/travel_guides/berlitz1/HandRHongKong.txt:        Hong Kong has some of the most luxurious hotels in the
@@ -667,7 +668,7 @@ zixin@ZixindeMBP docsearch % grep -r "Hong Kong" ./written_2/travel_guides/berli
 We search for pattern "Hong kong" case sensitively within ./written_2/travel_guides/berlitz1/ directory files and including its sub-directories. Since there is no more subdirectories, in this case, it is same as `grep "Hong Kong" ./written_2/travel_guides/berlitz1/*.txt`
 
 
-Input on dirctory and its output:
+- Input on dirctory and its output:
 ```
 zixin@ZixindeMBP docsearch % grep -r "Hong Kong" ./written_2
 ./written_2/non-fiction/OUP/Abernathy/ch1.txt:But hourly compensation levels have increasingly hurt U.S. apparel-makers, if performance is principally determined on a price/cost basis. For example, because of wage differentials between the countries, U.S. apparel-makers would need to be 2.5 times more productive than firms in Hong Kong to be “competitive.” As a result, U.S. shirt manufacturers lost enormous market share to offshore producers. And employment in men’s and boys’ shirts between 1972 and 1996 declined an average of 3 percent a year.22
