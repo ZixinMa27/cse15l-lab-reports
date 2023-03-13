@@ -4,7 +4,7 @@ Name: Zixin Ma
 Date: 2/27/2023
 
 ### Tasks
-Reproduce the task from the competition.
+Reproduce the task (4-9) from the competition.
 
 ### Step 4: Log into ieng6.
 Key Pressed:
@@ -83,7 +83,7 @@ Keypresses Effects:
 - `<up>` : `nano ListExamples.java` appeared
 - `<up>` +  `<return>` : `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` appeared and  `<return>` run the command
 
-Commit and push the resulting change to your Github account
+### Step 9: Commit and push the resulting change to your Github account
 Key Pressed:
 
 First time and Repeat: `git add .` + `<return>` + `git commit -m "debug"` + `<return>` + `git push` + `<return>`
