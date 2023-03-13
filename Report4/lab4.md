@@ -40,7 +40,7 @@ Key Pressed:
 
 First time: `cd lab 7` + `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` + `ls` + `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`
 
-Repeat: `cd lab7` + `<control>` + `R`  + `javac` + `<return>` + 
+Repeat: `cd lab7` + `<control>` + `R`  + `javac` + `<return>` 
 
 ![Image](lab4_test_fail.jpg)
 ![Image](step6.2.jpg)
@@ -54,9 +54,9 @@ Keypresses Effects:
 ### Step 7: Edit the code file to fix the failing test
 Key Pressed:
 
-First time: `nano ListExamples.java` + `<down>` several times until the bug line + <right> several times until reach "1" + `<delete>` "1" + entered `2` + `<control>` + `O`  + `<control>` + `X`
+First time: `nano ListExamples.java` + `<down>` several times until the bug line + `<right>` several times until reach "1" + `<delete>` "1" + entered `2` + `<control>` + `O`  + `<control>` + `X`
 
-Repeat: `nano L` + `<tab>` + `java` + `return` + `<down>` several times until the bug line + <right> several times until reach "1" + `<delete>` "1" + entered `2` +  `<control>` + `O`  + `<control>` + `X`
+Repeat: `nano L` + `<tab>` + `java` + `return` + `<down>` several times until the bug line + `<right>` several times until reach "1" + `<delete>` "1" + entered `2` +  `<control>` + `O`  + `<control>` + `X`
 
 ![Image](lab4_fixbug.jpg)
 
