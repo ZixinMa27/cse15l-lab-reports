@@ -63,24 +63,24 @@ echo "Your Grade: PASS!"
 
 ### Testing Grading Script
 I used the following repositories to test my grader, and all of them behaved as I thought. If the student submission could not find the needed files or not compile successfully, it will automatically Not pass.
-1. https://github.com/ucsd-cse15l-f22/list-methods-lab3, which has the same code as the starter from lab 3
+1. [https://github.com/ucsd-cse15l-f22/list-methods-lab3](https://github.com/ucsd-cse15l-f22/list-methods-lab3), which has the same code as the starter from lab 3
 ![Image](1.jpg)
 - Student Grade: Not Passed. It failed 2 or more Tests.
-2. https://github.com/ucsd-cse15l-f22/list-methods-corrected, which has the methods corrected (I would expect this to get full or near-to-full credit)
+2. [https://github.com/ucsd-cse15l-f22/list-methods-corrected](https://github.com/ucsd-cse15l-f22/list-methods-corrected), which has the methods corrected (I would expect this to get full or near-to-full credit)
 ![Image](2.jpg)
 - Student Grade: Passed. It passed all 3 Tests.
-3. https://github.com/ucsd-cse15l-f22/list-methods-compile-error, which has a syntax error of a missing semicolon. Note that your job is not to fix this, but to decide what to do in your grader with such a submission!
+3. [https://github.com/ucsd-cse15l-f22/list-methods-compile-error](https://github.com/ucsd-cse15l-f22/list-methods-compile-error), which has a syntax error of a missing semicolon. Note that your job is not to fix this, but to decide what to do in your grader with such a submission!
 ![Image](3.jpg)
 - Student Grade: Not Passed. It failed to compile files successfully.
-4. https://github.com/ucsd-cse15l-f22/list-methods-signature, which has the types for the arguments of filter in the wrong order, so it doesn’t match the expected behavior.
+4. [https://github.com/ucsd-cse15l-f22/list-methods-compile-error](https://github.com/ucsd-cse15l-f22/list-methods-signature), which has the types for the arguments of filter in the wrong order, so it doesn’t match the expected behavior.
 ![Image](4.jpg)
 - Student Grade: Not Passed. It failed to compile files successfully.
-5. https://github.com/ucsd-cse15l-f22/list-methods-filename, which has a great implementation saved in a file with the wrong name.
+5. [https://github.com/ucsd-cse15l-f22/list-methods-filename](https://github.com/ucsd-cse15l-f22/list-methods-filename), which has a great implementation saved in a file with the wrong name.
 ![Image](5.jpg)
 - Student Grade: Not Passed. It failed to find the needed files.
-6. https://github.com/ucsd-cse15l-f22/list-methods-nested, which has a great implementation saved in a nested directory called pa1.
+6. [https://github.com/ucsd-cse15l-f22/list-methods-nested](https://github.com/ucsd-cse15l-f22/list-methods-nested), which has a great implementation saved in a nested directory called pa1.
 ![Image](6.jpg)
 - Student Grade: Not Passed. It failed to find the needed files.
-7. Challenge https://github.com/ucsd-cse15l-f22/list-examples-subtle, which has more subtle bugs (hints: see assertSame, which compares with == rather than .equals(), and think hard about duplicates for merge)
+7. Challenge [https://github.com/ucsd-cse15l-f22/list-examples-subtle](https://github.com/ucsd-cse15l-f22/list-examples-subtle), which has more subtle bugs (hints: see assertSame, which compares with == rather than .equals(), and think hard about duplicates for merge)
 ![Image](7.jpg)
 - Student Grade: Partial Passed. It failed 1 out of 3 tests.
