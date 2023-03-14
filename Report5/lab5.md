@@ -81,6 +81,6 @@ I used the following repositories to test my grader, and all of them behaved as 
 6. [https://github.com/ucsd-cse15l-f22/list-methods-nested](https://github.com/ucsd-cse15l-f22/list-methods-nested), which has a great implementation saved in a nested directory called pa1.
 ![Image](6.jpg)
 - Student Grade: Not Passed. It failed to find the needed files.
-7. Challenge [https://github.com/ucsd-cse15l-f22/list-examples-subtle](https://github.com/ucsd-cse15l-f22/list-examples-subtle), which has more subtle bugs (hints: see assertSame, which compares with == rather than .equals(), and think hard about duplicates for merge)
+7. Challenge [https://github.com/ucsd-cse15l-f22/list-examples-subtle](https://github.com/ucsd-cse15l-f22/list-examples-subtle), which has more subtle bugs.
 ![Image](7.jpg)
 - Student Grade: Partial Passed. It failed 1 out of 3 tests.
